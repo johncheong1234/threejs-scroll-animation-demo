@@ -79,3 +79,131 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+
+  .website-title{
+    font-family: elevon, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* website 1 start*/
+  #backgroundimg1{
+    background: url(img/munchdelicious.png) no-repeat center left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  Height: 300px; 
+  Width: 100%;
+  }
+
+  #description1{
+    display: none;
+  }
+
+  #item1{
+    text-align: center;
+    color: #FFFFFF;
+  text-decoration: none;
+  }
+
+  #item1:hover{
+    cursor: pointer;
+  }
+
+  #item1:hover #description1{
+    display: block;
+  }
+
+  #item1:hover #backgroundimg1{
+    display: block;
+    filter: blur(35px)
+  }
+
+  #item1:hover #descriptivetext1{
+    transform: translateY(-200%);
+    transition-duration: 0.5s;
+  }
+  
+  /* website 1 end*/
+
+  /* website 2 starts*/
+
+    #backgroundimg2{
+      background: url(img/musdeck.png) no-repeat center left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    Height: 300px; 
+    Width: 100%;
+    }
+  
+    #description2{
+      display: none;
+    }
+  
+    #item2{
+      text-align: center;
+      color: #FFFFFF;
+    text-decoration: none;
+    }
+  
+    #item2:hover{
+      cursor: pointer;
+    }
+  
+    #item2:hover #description2{
+      display: block;
+    }
+  
+    #item2:hover #backgroundimg2{
+      display: block;
+      filter: blur(35px)
+    }
+  
+    #item2:hover #descriptivetext2{
+      transform: translateY(-200%);
+      transition-duration: 0.5s;
+    }
+
+  /* website 3 ends*/
+
+
+  #backgroundimg3{
+    background: url(img/aestheticpassion.png) no-repeat center left fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  Height: 300px; 
+  Width: 100%;
+  }
+
+  #description3{
+    display: none;
+  }
+
+  #item3{
+    text-align: center;
+    color: #FFFFFF;
+  text-decoration: none;
+  }
+
+  #item3:hover{
+    cursor: pointer;
+  }
+
+  #item3:hover #description3{
+    display: block;
+  }
+
+  #item3:hover #backgroundimg3{
+    display: block;
+    filter: blur(35px)
+  }
+
+  #item3:hover #descriptivetext3{
+    transform: translateY(-200%);
+    transition-duration: 0.5s;
+  }
